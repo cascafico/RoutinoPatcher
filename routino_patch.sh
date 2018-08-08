@@ -2,6 +2,7 @@
 
 # run by telegram bot (see routino_patcher.py)
 # it updates an 0.02x0.02 degree area to be routed by routino software.
+# please, fix paths based on your routino/webserver installation
 
 # planetsplitter doesn't like the following tags
 sed -i -e '/<note>/d' -e '/<meta/d'   /home/pi/py/*.osm
